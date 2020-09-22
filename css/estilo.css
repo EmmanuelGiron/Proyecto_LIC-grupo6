@@ -1,0 +1,13 @@
+body{
+    background-image: url('../imagenes/fondo.png');
+    background-size: 1368px 659px;
+    background-repeat: no-repeat;
+}
+.container-logo {width: 40vw;margin: 0px 30vw;}
+.logo {width: 500px;max-width: 500px;image-orientation: center;}
+
+.botones{ display: flex;height: 300px; justify-content: space-around;}
+
+button{ border: none; background-color: transparent; }
+
+

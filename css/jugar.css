@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body { 
+    height: 850px;
+    background-image: url('../imagenes/fondo.png');
+    background-size: 2000px 1000px;
+    background-repeat: repeat;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+img {
+    height: auto;
+    width: auto;
+    max-height: 2000px;
+    max-width: 2000px;
+}
+
+@media screen and (min-width: 769px) {
+    .logo {
+        position: absolute;
+        height: 150px;
+        width: 300px;
+        top:20px;
+        left:42%;
+        justify-content: center;
+    }
+    .puzzle{
+        position: absolute;
+        height: 83%;
+        width: 50%;
+        top: 200px;
+        left: 7%;
+        justify-content: left;  
+    }
+    .level{
+        position: absolute;
+        height: 80px;
+        width: 300px;
+        top: 260px;
+        left: 65%; 
+    }
+    .help{
+        position: absolute;
+        height: 80px;
+        width: 300px; 
+        top: 430px;
+        left: 65%;   
+    }
+    .help-rest{
+        position: absolute;
+        height: 30px;
+        width: 370px;
+        top: 550px;
+        left: 62%;   
+    }
+    .next{
+        position: absolute;
+        height: 90px;
+        width: 300px;
+        top: 630px;
+        left: 65%;   
+    }
+    .arrow{
+        position: absolute;
+        height: 70px;
+        width: 90px;
+        top: 740px;
+        left: 70px;
+     }
+     .progress{
+        position: absolute;
+        top: 230px;
+        left: 61%;
+    }
+    }
+@media screen and (min-width: 657px) and (max-width: 768px){
+    .logo {
+        position: absolute;
+        height: 100px;
+        width: 200px;
+        top:10px;
+        left:40%;
+    }
+    .puzzle{
+        position: absolute;
+        height: 450px;
+        width: 65%;
+        top: 140px;
+        left: 18%;
+    }
+    .level{
+        position: absolute;
+        height: 60px;
+        width: 200px;
+        top: 610px;
+        left: 17%;   
+    }
+    .help{
+        position: absolute;
+        height: 60px;
+        width: 200px; 
+        top: 610px;
+        left: 60%; 
+    }
+    .help-rest{
+        position: absolute;
+        height: 20px;
+        width: 300px;
+        top: 700px;
+        left: 30%;   
+    }
+    .next{
+        position: absolute;
+        height: 60px;
+        width: 200px;
+        top: 740px;
+        left: 40%;   
+    }
+    .arrow{
+        position: absolute;
+        height: 70px;
+        width: 70px;
+        top: 730px;
+        left: 15px;
+     }
+        }
+        @media screen and (min-width: 480px) and (max-width: 656px){
+            .logo {
+                position: absolute;
+                height: 100px;
+                width: 200px;
+                top:10px;
+                left:38%;
+            }
+            .puzzle{
+                position: absolute;
+                height: 450px;
+                width: 500px;
+                top: 140px;
+                left: 11%;
+            }
+            .level{
+                position: absolute;
+                height: 60px;
+                width: 200px;
+                top: 610px;
+                left: 17%;   
+            }
+            .help{
+                position: absolute;
+                height: 60px;
+                width: 200px; 
+                top: 610px;
+                left: 60%; 
+            }
+            .help-rest{
+                position: absolute;
+                height: 20px;
+                width: 300px;
+                top: 700px;
+                left: 30%;   
+            }
+            .next{
+                position: absolute;
+                height: 60px;
+                width: 200px;
+                top: 740px;
+                left: 40%;   
+            }
+            .arrow{
+                position: absolute;
+                height: 70px;
+                width: 70px;
+                top: 730px;
+                left: 5%;
+             }
+                }
+@media screen and (max-width: 479px) {
+    .logo {
+        position: absolute;
+        height: 150px;
+        width: 300px;
+        top:20px;
+        left:155px;
+    }
+    .puzzle{
+        position: absolute;
+        height: 550px;
+        width: 600px;
+        top: 230px;
+        left: 0px;
+        justify-content: left;  
+    }
+    .level{
+        position: absolute;
+        height: 80px;
+        width: 300px;
+        top: 830px;
+        left: 0px;   
+    }
+    .help{
+        position: absolute;
+        height: 80px;
+        width: 300px; 
+        top: 830px;
+        left: 300px;   
+    }
+    .help-rest{
+        position: absolute;
+        height: 40px;
+        width: 370px;
+        top: 950px;
+        left: 130px;   
+    }
+    .next{
+        position: absolute;
+        height: 90px;
+        width: 300px;
+        top: 1030px;
+        left: 300px;   
+    }
+    .arrow{
+        position: absolute;
+        height: 100px;
+        width: 130px;
+        top: 1030px;
+        left: 10px;
+     }
+    }
+    
+    
+
+
